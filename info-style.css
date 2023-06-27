@@ -1,0 +1,78 @@
+.form form {
+    border: 1px solid black;
+    background-color:  rgba(52, 194, 222, 0.53);
+    position: relative;
+    height: 500px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+    #name, #email, #confirmEmail, #message, #submit {
+        position: absolute;
+    }
+    #name {
+        top: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+        #nameLabel {
+            font-size: .75em;
+        }
+        #nameInput {
+            font-size: .5em;
+        }
+    #email {
+        top: 100px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+        #emailLabel {
+            font-size: .75em;
+        }
+        #emailInput {
+            font-size: .5em;
+        }
+    #confirmEmail {
+        top: 180px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+        #confirmEmailLabel {
+            font-size: .75em;
+        }
+        #confirmEmailInput {
+            font-size: .5em;
+        }
+    #message {
+        top: 260px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+        #messageLabel {
+            font-size: .75em;
+        }
+        #messageInput {
+            max-width: 550px;
+            max-height: 150px;
+        }
+    #submit {
+        bottom: 20px;
+        right: 20px;
+    }
+        #submit button {
+            font-size: .75em;
+        }
+
+@media screen and (max-width: 800px) {
+    .form form {
+        height: 500px;
+        width: 400px;
+    }
+        #messageInput {
+            max-width: 350px;
+        }
+}

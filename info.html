@@ -3,22 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="info-style.css">
     <link rel="icon" type="image/x-icon" href="img/Flag_of_Washington_favicon.svg.png">
     <script src="javascript.js"></script>
     <title>Info</title>
 </head>
 <body>
-    <section>
+<header>
+    <div class="externalNav">
+        <nav>
+            <ul>
+                <li><a href="https://wa.gov/">Official</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Washington_(state)">Wikipedia</a></li>
+                <li><a href="https://stateofwatourism.com/">Tourism</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero">
+        <img src="img/Flag_of_Washington_512.svg.png" alt="Washington State official seal and flag">
+        <div class="title">
+            <h1>Info</h1>
+            <p>
 
-    </section>
-    <section>
-        <h2>Site References</h2>
-        <p><a href="https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg">WA Secretary of State</a>, Public domain, via Wikimedia Commons</p>
-        <p><a href="https://www.pexels.com/@john-callery-3749962/">John Callery</a></p>
-        <p><a href="https://www.pexels.com/@chaitaastic/">Chait Goli</a></p>
-        <p><a href="https://www.pexels.com/@tom-shamberger-5308978/">Tom Shamberger</a></p>
-    </section>
+            </p>
+        </div>
+    </div>
+    <div class="internalNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="olympia.html">Olympia</a></li>
+                <li><a href="seattle.html">Seattle</a></li>
+                <li><a href="spokane.html">Spokane</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="content">
+        <section class="form">
+            <h2>Need more information? <br>Have a comment?</h2>
+            <form action="" method="post">
+                <div id="name"><label for="nameInput" id="nameLabel">name</label><input type="text" name="name" id="nameInput"></div>
+                <div id="email"><label for="emailInput" id="emailLabel">email</label><input type="email" name="email" id="emailInput"></div>
+                <div id="confirmEmail"><label for="confirmEmailInput" id="confirmEmailLabel">confirm email</label><input type="email" name="email" id="confirmEmailInput"></div>
+                <div id="message"><label for="messageInput" id="messageLabel">message</label><textarea name="message" id="messageInput" cols="60" rows="10"></textarea></div>
+                <div id="submit"><button type="submit">Submit</button></div>
+
+            </form>
+        </section>
+        <section>
+            <h2>Site References</h2>
+            <ol>
+                <li><p><a href="https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg" target="_blank">
+                    WA Secretary of State</a>, Washington State official seal and flag</p></li>
+                <li><p><a href="https://www.pexels.com/@john-callery-3749962/" target="_blank">
+                    John Callery</a>, A View of the Washington State Capitol</p></li>
+                <li><p><a href="https://www.pexels.com/@chaitaastic/" target="_blank">
+                    Chait Goli</a>, Photo of Seattle Skyline</p></li>
+                <li><p><a href="https://www.pexels.com/@tom-shamberger-5308978/" target="_blank">
+                    Tom Shamberger</a>, A Clock Tower Near Green trees Beside a River</p></li>
+            </ol>
+        </section>
+    </div>
+    <aside>
+        <table>
+            <caption>Contact</caption>
+            <tr>
+                <th>Official website</th>
+                <td><a href="https://wa.gov/" target="_blank">wa.gov</a></td>
+            </tr>
+            <tr>
+                <th>Government Agencies</th>
+                <td><a href="https://wa.gov/agency" target="_blank">wa.gov/agency</a></td>
+            </tr>
+        </table>
+    </aside>
+</main>
+
+<footer>
+    <div class="internalNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="olympia.html">Olympia</a></li>
+                <li><a href="seattle.html">Seattle</a></li>
+                <li><a href="spokane.html">Spokane</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+    <p>
+        Copyright © 2023 Marcus Lull
+        <br>
+        All rights reserved.
+    </p>
+</footer>
 
 </body>
 </html>
