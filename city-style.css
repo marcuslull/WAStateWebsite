@@ -1,7 +1,6 @@
 #olympia-hero img {
     width: 38vw;
     padding: 20px;
-    /*margin-left: 2vw;*/
 }
     #olympia-hero .title {
         margin-left: 0;
@@ -16,4 +15,39 @@
         }
             #titleSpan {
                 font-size: .5em;
+            }
+
+
+#seattle-hero img {
+    width: 38vw;
+    padding: 20px;
+}
+    #seattle-hero .title {
+        margin-left: 0;
+    }
+        #seattle-hero .title h1 {
+            text-align: center;
+        }
+            #seattle-hero .title p {
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
+            }
+
+
+#spokane-hero img {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+    #spokane-hero .title {
+        margin-left: 0;
+    }
+        #spokane-hero .title h1 {
+            text-align: center;
+        }
+            #spokane-hero .title p {
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
             }
