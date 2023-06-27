@@ -93,6 +93,7 @@ body {
                 width: 400px;
                 background-color: rgba(52, 194, 222, 0.53);
                 padding: 20px;
+                margin-top: 50px;
             }
                 table caption {
                     font-size: 1.5em;
@@ -107,6 +108,9 @@ body {
                 td {
                     text-align: right;
                 }
+            #notableCities tr td {
+                text-align: left;
+            }
 
 
     footer {

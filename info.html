@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="info-style.css">
     <link rel="icon" type="image/x-icon" href="img/Flag_of_Washington_favicon.svg.png">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <title>Info</title>
 </head>
 <body>
@@ -14,9 +14,9 @@
     <div class="externalNav">
         <nav>
             <ul>
-                <li><a href="https://wa.gov/">Official</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Washington_(state)">Wikipedia</a></li>
-                <li><a href="https://stateofwatourism.com/">Tourism</a></li>
+                <li><a href="https://wa.gov/" target="_blank">Official</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Washington_(state)" target="_blank">Wikipedia</a></li>
+                <li><a href="https://stateofwatourism.com/" target="_blank">Tourism</a></li>
             </ul>
         </nav>
     </div>
@@ -45,12 +45,12 @@
     <div class="content">
         <section class="form">
             <h2>Need more information? <br>Have a comment?</h2>
-            <form action="" method="post">
-                <div id="name"><label for="nameInput" id="nameLabel">name</label><input type="text" name="name" id="nameInput"></div>
-                <div id="email"><label for="emailInput" id="emailLabel">email</label><input type="email" name="email" id="emailInput"></div>
-                <div id="confirmEmail"><label for="confirmEmailInput" id="confirmEmailLabel">confirm email</label><input type="email" name="email" id="confirmEmailInput"></div>
-                <div id="message"><label for="messageInput" id="messageLabel">message</label><textarea name="message" id="messageInput" cols="60" rows="10"></textarea></div>
-                <div id="submit"><button type="submit">Submit</button></div>
+            <form id="infoForm">
+                <div id="name"><label for="nameInput" id="nameLabel">name</label><input type="text" name="name" id="nameInput" placeholder="name"></div>
+                <div id="email"><label for="emailInput" id="emailLabel">email</label><input type="email" name="email" id="emailInput" placeholder="email"></div>
+                <div id="confirmEmail"><label for="confirmEmailInput" id="confirmEmailLabel">confirm email</label><input type="email" name="email" id="confirmEmailInput" placeholder="confirm email"></div>
+                <div id="message"><label for="messageInput" id="messageLabel">message</label><textarea name="message" id="messageInput" cols="60" rows="10" placeholder="comments"></textarea></div>
+                <div id="submit"><input type="submit"></div>
 
             </form>
         </section>
