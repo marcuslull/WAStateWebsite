@@ -1,0 +1,19 @@
+#olympia-hero img {
+    width: 38vw;
+    padding: 20px;
+    /*margin-left: 2vw;*/
+}
+    #olympia-hero .title {
+        margin-left: 0;
+    }
+        #olympia-hero .title h1 {
+            text-align: center;
+        }
+        #olympia-hero .title p {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+            #titleSpan {
+                font-size: .5em;
+            }
