@@ -21,6 +21,7 @@
         }
         #nameInput {
             font-size: .5em;
+            width:200px;
         }
     #email {
         top: 100px;
@@ -33,6 +34,7 @@
         }
         #emailInput {
             font-size: .5em;
+            width:200px;
         }
     #confirmEmail {
         top: 180px;
@@ -43,8 +45,12 @@
         #confirmEmailLabel {
             font-size: .75em;
         }
+            #emailMatchMessage {
+                color: #d72323;
+            }
         #confirmEmailInput {
             font-size: .5em;
+            width:200px;
         }
     #message {
         top: 260px;
